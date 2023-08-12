@@ -3,17 +3,14 @@ html {
     background-color: bisque;
 }
 
-.wrapper {
-    margin-left: 18%;
-    margin-right: 20%;
-}
 
 h2 {
     text-align: center;
 }
 
 .todo-grid,
-.todo-input-grid {
+.todo-input-grid,
+.total {
     display: grid;
     grid-template-columns: 100px 75px 50px;
     column-gap: 10px;
@@ -22,7 +19,7 @@ h2 {
     justify-content: center;
 }
 
-.todo-input-grid{
+.todo-input-grid {
     margin-bottom: 10px;
     align-items: stretch;
 }
